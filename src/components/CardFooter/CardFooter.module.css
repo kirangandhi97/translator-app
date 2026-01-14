@@ -1,0 +1,52 @@
+.cardFooter {
+    position: relative;
+    padding-top: 16px;
+}
+
+.footerCount {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6B727E;
+    text-align: right;
+}
+
+.footerButtons {
+    display: flex;
+    min-height: 62px;
+    padding-top: 12px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footerButtonsLeft {
+    display: grid;
+    column-gap: 8px;
+    grid-template-columns: auto auto;
+}
+
+.translateBtn {
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 12px;
+    align-items: center;
+    border: 1px solid #7CA9F3;
+    background-color: #3662E3;
+    transition: 0.35s ease;
+}
+
+.translateBtn:hover {
+    border-color: #2962be;
+    background-color: #163eb8;
+}
+
+.translateBtnIcon {
+    margin-right: 7px;
+}

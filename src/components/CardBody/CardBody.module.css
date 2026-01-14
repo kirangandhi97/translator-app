@@ -1,0 +1,16 @@
+.cardBody {
+    position: relative;
+    padding-top: 24px;
+}
+
+.inputItem {
+    width: 100%;
+    border: none;
+    resize: none;
+    height: 132px;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+    padding-right: 10px;
+    background-color: transparent;
+}

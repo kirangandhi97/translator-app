@@ -1,0 +1,31 @@
+.langSwitchItem {
+    position: relative;
+    padding: 8px 12px;
+    color: #6B727E;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    letter-spacing: -0.6px;
+    margin-right: 12px;
+}
+
+.langSwitchItem:last-child {
+    margin-right: 0;
+}
+
+.selectLang::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-left: 3px;
+    background: url("../../assets/Expand_down.svg") no-repeat center center/contain;
+}
+
+.langSwitchItem.active {
+    color: #fff;
+    background-color: #4D5562;
+}
